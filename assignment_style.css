@@ -1,0 +1,185 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+.banner-title{
+    color:white;
+    font-weight: 1000;
+    font-size: 50px;
+}
+.banner-description{
+    padding: 15px 0px;
+    font-size: 13px;
+    color: white;
+    letter-spacing: 1px;
+
+}
+header{
+    padding: 100px 200px 10px 600px;
+    text-align: right;
+    background-image: url("./images/banner/banner3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.btn{
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+    color:#005FAC;
+    padding: 15px 25px;
+    font-weight: 600;
+    font-size: medium;
+}
+section{
+    padding: 200px 300px 10px 600px;
+    text-align: left;
+    background-image: url("./images/person.png");
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: 400px 500px;
+    background-position: 150px 50px;
+}
+.section-title{
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+}
+.section-description{
+    color: black;
+    font-size: 13px;
+    padding: 15px 0px;
+}
+ul{
+    list-style: none;
+    padding: 1px 2px;
+    font-size: 13px;
+    line-height: 2;
+}
+
+
+.plan-content{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+.myplan{
+    text-align: center;
+}
+.plan-title{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    padding: 40px;
+}
+.content-title{
+    font-size: 20px;
+    color:black;
+    font-weight: bold;
+    padding: 2px;
+}
+.content-description{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    color: grey;
+}
+.plan-icon{
+    height: 70px;
+    width: 70px;
+}
+.another-section{
+    height: 300px;
+    background-image: url("./images/watch.png"),url("./images/gradient1.png");
+    background-size: 900px 220px,900px 220px;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat,no-repeat;
+    background-position: center,center;
+    text-align: left;
+    padding: 10px 200px 30px;
+    margin: 0;
+}
+.title{
+    padding: 100px 400px 20px 0px;
+    color: white;
+}
+
+
+footer{
+    height: 450px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    padding: 0px 200px;
+}
+.left-part-title{
+    font-weight: 900;
+}
+.box{
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    margin: auto;
+    border: 1px solid white;
+    background-color: black;
+    margin-top: 15px;
+    color: white;
+}
+
+.subscribe-btn{
+    background-color:#005FAC;
+    border: none;
+    border-radius: 4px;;
+    color:white;
+    padding: 15px 25px;
+    font-weight: 600;
+    font-size: medium;
+    margin-top: 10px;
+}
+.future-description{
+    color: white;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    padding:10px 100px 10px 0px;
+}
+.future{
+    text-align: left;
+}
+.email{
+    padding: 10px 0px;
+    font-size: 13px;
+}
+.phone{
+    padding: 5px 0px;
+    font-size: 13px;
+}
+.icon{
+    display: flex;
+    gap: 20px;
+}
+.footer-icon{
+    padding: 15px 0px;
+    height: 35px;
+    width: 35px;
+}
+
+
+
+.myself{
+    height: 700px;
+    background-image: url("./images/rocketraja.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.myself-description{
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 600px 200px 10px 200px;
+}
