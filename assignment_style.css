@@ -2,6 +2,7 @@
     font-family: 'Work Sans', sans-serif;
     margin: 0;
 }
+/*banner style*/
 .banner-title{
     color:white;
     font-weight: 1000;
@@ -31,6 +32,7 @@ header{
     font-weight: 600;
     font-size: medium;
 }
+/* section part */
 section{
     padding: 200px 300px 10px 600px;
     text-align: left;
@@ -56,8 +58,23 @@ ul{
     font-size: 13px;
     line-height: 2;
 }
+/* a section which i made  */
+.myself{
+    height: 700px;
+    background-image: url("./images/rocketraja.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.myself-description{
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 600px 200px 10px 200px;
+}
 
 
+/* my-plan part */
 .plan-content{
     display: flex;
     gap: 80px;
@@ -90,6 +107,8 @@ ul{
     height: 70px;
     width: 70px;
 }
+/* another section part */
+
 .another-section{
     height: 300px;
     background-image: url("./images/watch.png"),url("./images/gradient1.png");
@@ -106,7 +125,7 @@ ul{
     color: white;
 }
 
-
+/* footer part */
 footer{
     height: 450px;
     background-color: black;
@@ -167,19 +186,6 @@ footer{
     height: 35px;
     width: 35px;
 }
+/* The end */
 
 
-
-.myself{
-    height: 700px;
-    background-image: url("./images/rocketraja.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.myself-description{
-    font-size: 22px;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-    padding: 600px 200px 10px 200px;
-}
